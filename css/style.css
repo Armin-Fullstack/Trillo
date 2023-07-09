@@ -20,4 +20,32 @@ body {
   color: #777;
 }
 
+.container {
+  max-width: 120rem;
+  background-color: #f4f2f2;
+  margin: 8rem auto;
+  min-height: 50rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 0.1rem solid #faf9f9;
+  height: 7rem;
+}
+
+.content {
+  display: flex;
+}
+
+.sidbar {
+  background-color: #333;
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
